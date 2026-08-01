@@ -10,7 +10,9 @@ This repository contains solutions to three common SQL interview questions. Thes
 Retrieve the top three highest-paid employees from every department.  
 
 
-**Concepts Used**   
+**Concepts Used:** 
+
+
 **✅ Common Table Expression (CTE)**  
 A CTE is a temporary named result set created using the WITH clause. It improves query readability and allows complex queries to be broken into smaller, manageable parts.  
 
@@ -25,7 +27,9 @@ Employees with the same salary receive the same rank.
 **📖 Question 2: Find the Average Salary of Employees Hired in the Last 5 Years**    
 **Objective**    
 Calculate the average salary of employees who were hired during the last five years.  
-**Concepts Used**    
+
+
+**Concepts Used:**    
 
 **✅ Aggregate Function – AVG()**  
 Calculates the average value of the Salary column.  
@@ -41,7 +45,9 @@ These functions help filter employees hired within the last five years.
 
 **Objective**  
 Display employees whose salary is lower than the average salary of employees hired in the last five years.  
-**Concepts Used**    
+
+
+**Concepts Used:**    
 
 **✅ Subquery**  
 A subquery is a query written inside another query.  
